@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+25&display=swap");
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  border: 1px solid red;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+}
+
+.secsaum {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secsaum.inicio {
+  background-color: green;
+  background-image: url(https://vasconoticias.com.br/media/fotos/vasco_libertadores_1998.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.secsaum.sobre {
+  background-color: blue;
+  background-image: url(https://vasconoticias.com.br/media/fotos/vasco_libertadores_1998.jpg);
+  margin: 10px;
+  background-size: cover;
+  background-position: center;
+}
+.secsaum.atividades {
+  background-color: red;
+}
+.secsaum.contato {
+  background-color: yellowgreen;
+}
+
+.faixa {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+h1,
+h2 {
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+}
+.menu li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=styles.css.map */
